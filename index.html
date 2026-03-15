@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Yorlin Mosquera | Software Engineer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/4c5a39e8e2.js" crossorigin="anonymous"></script>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter',sans-serif;
+}
+
+body{
+background:linear-gradient(180deg,#020617,#0f172a);
+color:#e2e8f0;
+line-height:1.6;
+}
+
+/* CONTENEDOR */
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+gap:40px;
+margin-top:40px;
+}
+
+.hero img{
+width:180px;
+height:180px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid #38bdf8;
+}
+
+.hero-text h1{
+font-size:42px;
+}
+
+.hero-text h2{
+color:#38bdf8;
+margin-top:10px;
+}
+
+.hero-text p{
+margin-top:15px;
+max-width:600px;
+}
+
+.social{
+margin-top:20px;
+display:flex;
+gap:20px;
+font-size:22px;
+}
+
+.social i{
+cursor:pointer;
+}
+
+.social i:hover{
+color:#38bdf8;
+}
+
+/* SECCIONES */
+
+section{
+margin-top:90px;
+}
+
+h3{
+font-size:28px;
+margin-bottom:25px;
+border-left:4px solid #38bdf8;
+padding-left:10px;
+}
+
+/* TARJETAS */
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:10px;
+margin-bottom:20px;
+transition:0.5s;
+opacity:0;
+transform:translateY(40px);
+}
+
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 10px 20px rgba(0,0,0,0.4);
+}
+
+/* GRID */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+/* TECNOLOGIAS */
+
+.tech{
+font-size:26px;
+margin-bottom:10px;
+color:#38bdf8;
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+}
+
+.contact a{
+color:#38bdf8;
+text-decoration:none;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+font-size:26px;
+padding:15px;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+margin-top:80px;
+color:#64748b;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="hero">
+
+<img src="foto.jpg">
+
+<div class="hero-text">
+
+<h1>Yorlin Ulciber Mosquera</h1>
+
+<h2>Software Engineer | Backend, Data & Cyber Defense</h2>
+
+<p>
+Construyendo arquitecturas escalables, asegurando endpoints y optimizando el manejo masivo de datos.
+Desarrollador Junior Avanzado enfocado en transformar lógica compleja en soluciones empresariales reales.
+</p>
+
+<div class="social">
+
+<i class="fab fa-linkedin"></i>
+<i class="fab fa-github"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-facebook"></i>
+<i class="fab fa-youtube"></i>
+
+</div>
+
+</div>
+
+</div>
+
+<section>
+
+<h3>About Me</h3>
+
+<div class="card">
+
+<p>
+Soy Tecnólogo en Sistemas y estudiante de Ingeniería de Sistemas y Computación en la Universidad Tecnológica de Pereira.
+Cuento con casi dos años de experiencia práctica en desarrollo web, optimización de bases de datos y soporte tecnológico corporativo.
+</p>
+
+<p>
+En 2019 fui beneficiario de una beca internacional para investigar tecnologías emergentes en Argentina,
+Chile y Perú, ampliando mi visión sobre innovación tecnológica en Latinoamérica.
+</p>
+
+<p>
+Participo en semilleros de investigación en inteligencia artificial, minería de datos y ciberseguridad.
+Me apasiona integrar IA en plataformas empresariales y diseñar sistemas seguros, escalables y eficientes.
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h3>Core Skills</h3>
+
+<div class="grid">
+
+<div class="card">
+<div class="tech"><i class="fas fa-server"></i></div>
+Backend Architecture
+</div>
+
+<div class="card">
+<div class="tech"><i class="fas fa-database"></i></div>
+Data Engineering
+</div>
+
+<div class="card">
+<div class="tech"><i class="fas fa-shield-alt"></i></div>
+Cybersecurity
+</div>
+
+<div class="card">
+<div class="tech"><i class="fas fa-code"></i></div>
+REST API Development
+</div>
+
+<div class="card">
+<div class="tech"><i class="fas fa-chart-line"></i></div>
+Data Analysis
+</div>
+
+<div class="card">
+<div class="tech"><i class="fas fa-cloud"></i></div>
+Cloud Systems
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h3>Featured Projects</h3>
+
+<div class="card">
+
+<strong>SecureCore Analytics — Fintech / AI</strong>
+
+<p>
+Plataforma para detección de fraude en tiempo real utilizando F#, SQL, Python,
+TensorFlow y AWS SageMaker, con dashboards analíticos en Power BI.
+</p>
+
+</div>
+
+<div class="card">
+
+<strong>UniConnect Portal — EdTech Platform</strong>
+
+<p>
+Sistema académico desarrollado con Java y JavaScript con autenticación OAuth2
+y control de accesos basado en roles (RBAC) siguiendo estándares OWASP.
+</p>
+
+</div>
+
+<div class="card">
+
+<strong>HackTrack Mobile — Mobile Platform</strong>
+
+<p>
+Aplicación Android con API REST desarrollada en C# para gestión de equipos
+durante competencias tecnológicas en tiempo real.
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h3>Professional Experience</h3>
+
+<div class="card">
+
+<strong>Servientrega — Data Analyst</strong>
+
+<p>
+Optimización de bases de datos logísticas y pipelines de datos para sistemas de rastreo de envíos.
+</p>
+
+</div>
+
+<div class="card">
+
+<strong>Hitachi Energy — IT Support Assistant</strong>
+
+<p>
+Soporte tecnológico corporativo y mantenimiento de infraestructura en entorno multinacional.
+</p>
+
+</div>
+
+<div class="card">
+
+<strong>ENFIS — Database Manager</strong>
+
+<p>
+Administración y auditoría de bases de datos empresariales con optimización avanzada de consultas SQL.
+</p>
+
+</div>
+
+<div class="card">
+
+<strong>Everis (NTT Data) — Development Assistant</strong>
+
+<p>
+Participación en soporte y evolución de soluciones empresariales basadas en SQL y tecnologías web.
+</p>
+
+</div>
+
+<div class="card">
+
+<strong>Merca Express — Technology Consultant</strong>
+
+<p>
+Implementación de solución tecnológica para automatización de procesos financieros y control de flujo de caja.
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h3>Technologies</h3>
+
+<div class="grid">
+
+<div class="card">Python</div>
+<div class="card">Java</div>
+<div class="card">C#</div>
+<div class="card">F#</div>
+<div class="card">SQL</div>
+<div class="card">TensorFlow</div>
+<div class="card">AWS</div>
+<div class="card">React</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h3>Certifications & Achievements</h3>
+
+<div class="card">
+Cybersecurity Analyst (CSA) — Sentinel Vanguard Technologies
+</div>
+
+<div class="card">
+1er Puesto — Best Secure Backend Architecture — Hackathon Tech Cali 2023
+</div>
+
+</section>
+
+<section class="contact">
+
+<h3>Contact</h3>
+
+<p>Email: <a href="mailto:yorlin2010@gmail.com">yorlin2010@gmail.com</a></p>
+
+<p>Teléfono: +57 3127267505</p>
+
+<p>
+Disponible para oportunidades como
+<strong>Backend Engineer</strong>,
+<strong>Data Engineer</strong> o
+<strong>Cybersecurity Analyst</strong>.
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Yorlin Mosquera | Software Engineer Portfolio</p>
+
+</footer>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/573127267505">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<script>
+
+const cards = document.querySelectorAll(".card");
+
+window.addEventListener("scroll", () => {
+
+cards.forEach(card => {
+
+const top = card.getBoundingClientRect().top;
+const screen = window.innerHeight;
+
+if(top < screen - 100){
+
+card.style.opacity="1";
+card.style.transform="translateY(0px)";
+
+}
+
+});
+
+});
+
+</script>
+
+</body>
+</html>
